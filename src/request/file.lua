@@ -1,4 +1,4 @@
-local util = require 'util'
+local util = require 'lusty.util'
 
 return {
   handler = function(context)
