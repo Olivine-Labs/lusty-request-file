@@ -1,8 +1,8 @@
 package = "lusty-request-file"
-version = "0.3-0"
+version = "0.4-0"
 source = {
-  url = "https://github.com/Olivine-Labs/lusty-request-file/archive/v0.3.0.tar.gz",
-  dir = "lusty-request-file-0.3.0"
+  url = "https://github.com/Olivine-Labs/lusty-request-file/archive/v0.4.0.tar.gz",
+  dir = "lusty-request-file-0.4.0"
 }
 description = {
   summary = "Lusty plugin for handling requests with a lua file.",
@@ -20,6 +20,6 @@ dependencies = {
 build = {
   type = "builtin",
   modules = {
-    ["lusty-request-file.request.file"]  = "src/request/file.lua",
+    ["lusty-request-file.request.file"]  = "lusty-request-file/request/file.lua",
   }
 }
